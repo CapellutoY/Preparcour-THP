@@ -1,6 +1,6 @@
 i = 0
 puts "Salut bienvenu dans ma super pyramide, combien d'etage veux tu ?
-(le nombre d'etages doit etre comprit entre 1 et 25)"
+(le nombre d'etages doit etre compris entre 1 et 25)"
 nbEtages = gets.chomp.to_i
 if nbEtages < 1
   puts "Ce nombre est trop petit"
